@@ -15,7 +15,7 @@ void getdata()
 {
     Scanner input = new Scanner(System.in);
     System.out.println("enter the name");
-    name=input.nextLine();
+    name=input.next();
     System.out.println("enter the balance");
     balnace=input.nextInt();
     Random rand = new Random();
