@@ -15,11 +15,11 @@ void getdata()
 {
     Scanner input = new Scanner(System.in);
     System.out.println("enter the name");
-    name=input.next();
+    name=input.next(); //dont use nextline() because it skip and moves to next line
     System.out.println("enter the balance");
     balnace=input.nextInt();
     Random rand = new Random();
-    account=rand.nextInt(100000);
+    account=rand.nextInt(100000); //to get genrate random number add zeros to increse the digits
     
 }
 }
