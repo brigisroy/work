@@ -21,10 +21,7 @@ public class Regex {
       }else {
          System.out.println("NO MATCH");
       }
-      if (m.find()){
-          
-          System.out.println("hello");
-      }
+      
    }
     }
 
