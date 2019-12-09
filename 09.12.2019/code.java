@@ -47,7 +47,7 @@ public class Code
         }
         System.out.println("MySQL JDBC Driver Registered!");
         try{
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/?user=root", "root", "mobius365");
+            Connection conn = DriverManager.getConnection("<'jdbc_link'>", "<'username'>", "<'password'>");
             System.out.println("SQL Connection to database established!");
             Statement st= conn.createStatement();
             Scanner sc = new Scanner(System.in);
