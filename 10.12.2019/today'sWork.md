@@ -22,10 +22,10 @@ Array list is not similar to array's this differnt
 2.but ArrayList are flexbile, add( ) and remove( ) such functionalities are not available in Array
 
 **syntax For Int type**
->ArrayList<Integer> NameOfArrayList = new ArrayList<Integer>();
+>ArrayList<Integer> NameOfArrayList = new ArrayList<Integer>( );
   
   
 **syntax For string type**
->ArrayList<String> NameOfArrayList = new ArrayList<String>();
+>ArrayList<String> NameOfArrayList = new ArrayList<String>( );
   
   [ArrayOfList.java](https://github.com/brigisroy/work/blob/master/10.12.2019/ArrayOfList.java)
