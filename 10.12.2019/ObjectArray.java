@@ -35,7 +35,9 @@ public class ObjectArray {
     public static void main(String[] args) {
 
         data[] obj = new data[2];
-        ''' //this statement created only array not the objects for the class'''
+        ''' ruby
+            //this statement created only array not the objects for the class
+            '''
          obj[0]=new data();
          obj[1]=new data();
         //if the object are not created it throwns a  java.lang.NullPointerException 
