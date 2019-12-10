@@ -1,4 +1,4 @@
-**array of class**
+**Array of class**
 
 where you can an array of class
 
