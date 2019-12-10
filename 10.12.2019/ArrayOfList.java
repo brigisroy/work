@@ -7,6 +7,7 @@ public class ArrayOfList {
     public static void main(String[] args) {
         int sum = 0;
         ArrayList<Integer> numbers = new ArrayList<Integer>();
+        //ArrayList<Integer> numbers = new ArrayList<>(); this meethod can also be used this know as diamond interface 
         System.out.println("Size of array : " + numbers.size());
         for (int i = 0; i < 10; i++) {
             numbers.add(i);
