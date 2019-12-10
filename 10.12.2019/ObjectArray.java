@@ -40,7 +40,7 @@ public class ObjectArray {
         
          obj[0]=new data();
          obj[1]=new data();
-        //if the object are not created it throwns a  java.lang.NullPointerException 
+        //if the object are not created it throws a  `java.lang.NullPointerException`
         System.out.println("getting data for 1st object");
         obj[0].get_data();
         System.out.println("getting data for 1st object");
