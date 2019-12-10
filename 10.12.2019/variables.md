@@ -1,7 +1,7 @@
 ![](https://www.guru99.com/images/java/DataTypes.png)
 
 |Data Type |	Default Value |	Default size|
-|---|---|---|
+|:---:|:---:|:---:|
 |byte |	0 |	1 byte|
 |short 	|0 |	2 bytes|
 |int| 	0 	|4 bytes|
