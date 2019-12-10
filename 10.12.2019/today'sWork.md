@@ -3,10 +3,10 @@
 where you can an array of class
 
 **syntax**
-> <class_name> obj = new <class_name>[\<Number of elemets>]; 
+> <class_name> obj = new <class_name>[\<Number of elements>]; 
 
-it will not create objects 
-to create a objects 
+it will not create objects,to create a objects otherwise it will throw a  
+>java.lang.NullPointerException
 
 **syntax**
 
