@@ -32,7 +32,7 @@ Array list is not similar to array's this differnt and it is present in the `jav
   
   [ArrayOfList.java](https://github.com/brigisroy/work/blob/master/10.12.2019/ArrayOfList.java)
   
-  **Hashmap's in java **
+  **Hashmap's in java**
   
  The values can be stored in a map by forming a key-value pair. The value can be retrieved using the key by passing
  
@@ -40,5 +40,7 @@ Array list is not similar to array's this differnt and it is present in the `jav
   ``` 
   HashMap< Integer, String > map = new HashMap<  >( );
   map.put(Interger_value,"string_value");
-  map.remove(keyvalue); **keyvalue is Integer or String which you Declare at first **
+  map.remove(keyvalue); **keyvalue is Integer or String which you Declare at first**
  ```
+ 
+ [HashMap.java](10.12.2019/Hashmaps.java)
