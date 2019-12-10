@@ -17,7 +17,7 @@ it will not create objects,to create a objects otherwise it will throw a
 
 **ArrayList**
 
-Array list is not similar to array's this differnt
+Array list is not similar to array's this differnt and it is present in the `java.util.ArrayList`
 
 1.Arrays are fixed in size 
 
