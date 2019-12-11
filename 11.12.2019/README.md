@@ -48,4 +48,4 @@ ExecutorService pool = Executors.newFixedThreadPool(number_of_max_threads);
 ```
 [Code of Multithreading](https://github.com/brigisroy/work/blob/master/11.12.2019/Multi.java)
 
-[Code for MultiThreading usinfg ThreadPoolExectors](https://github.com/brigisroy/work/blob/master/11.12.2019/Threadpool.java)
+[Code for MultiThreading using ThreadPoolExectors](https://github.com/brigisroy/work/blob/master/11.12.2019/Threadpool.java)
