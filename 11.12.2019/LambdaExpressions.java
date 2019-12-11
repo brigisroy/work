@@ -9,7 +9,7 @@ interface reverseString{
 }
 public class LambdaExpressions {
     public static void main(String[] args) {
-        name a=(q,w)-> q+w;
+        name a=(q,w)-> q+w; //for single line no return keyword is used  
         System.out.println("addition using lambdaexpressions : "+a.add(20, 40));
         String str2 = "hello";
         reverseString rev;
@@ -20,8 +20,9 @@ public class LambdaExpressions {
             {
                 System.out.print(str2.charAt(i));
             }
-            return null;
+            return null; // must have retrun type otherwise the program will not halt
         };
+        //must terminate with terminater for milti line lambda Expressions and should return something or else use null
            rev.reverse(str2);
     }
     
