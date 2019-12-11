@@ -45,10 +45,11 @@ The Lambda Expression can be of single line and milti line for single line the i
 Syntax for Thread Pool Executor
 
 ExecutorService pool = Executors.newFixedThreadPool(number_of_max_threads);
+pool.shutdown();
 ```
 Always the Thread Pool Executor should be ShutDown otherwise it will goes on Running 
 
->pool.shutdown();
+
 
 [Code of Multithreading](https://github.com/brigisroy/work/blob/master/11.12.2019/Multi.java)
 
