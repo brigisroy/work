@@ -5,6 +5,7 @@ interface name{
     public int add(int a,int b);
 }
 interface reverseString{
+    //interfaces are needed for lambda Expressions
     public String reverse(String str1);
 }
 public class LambdaExpressions {
