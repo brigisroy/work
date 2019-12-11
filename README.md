@@ -1,2 +1,2 @@
 # work
-daliy report and logs done in Internship at mobius365 
+Daliy Report and logs done in Internship at Mobius365 
