@@ -47,7 +47,7 @@ Syntax for Thread Pool Executor
 ExecutorService pool = Executors.newFixedThreadPool(number_of_max_threads);
 pool.shutdown();
 ```
-Always the Thread Pool Executor should be ShutDown otherwise it will goes on Running 
+Always the Thread Pool Executor should be ShutDown otherwise it keeps on Running 
 
 
 
