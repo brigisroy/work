@@ -39,13 +39,17 @@ The Lambda Expression can be of single line and milti line for single line the i
 
 [Code for Lambda Expression](https://github.com/brigisroy/work/blob/master/11.12.2019/LambdaExpressions.java)
 
-**Multi Threading **
+**Multi Threading**
 
 ```
 Syntax for Thread Pool Executor
 
 ExecutorService pool = Executors.newFixedThreadPool(number_of_max_threads);
 ```
+Always the Thread Pool Executor should be ShutDown otherwise it will goes on Running 
+
+>pool.shutdown();
+
 [Code of Multithreading](https://github.com/brigisroy/work/blob/master/11.12.2019/Multi.java)
 
 [Code for MultiThreading using ThreadPoolExectors](https://github.com/brigisroy/work/blob/master/11.12.2019/Threadpool.java)
