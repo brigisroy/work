@@ -11,6 +11,7 @@ interface reverseString{
 public class LambdaExpressions {
     public static void main(String[] args) {
         name a=(q,w)-> q+w;
+        //return function is not needed for single line lambda expressions it defaultly the values
         System.out.println("addition using lambdaexpressions : "+a.add(20, 40));
         String str2 = "lambdaexpressions";
         reverseString rev;
