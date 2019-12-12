@@ -14,8 +14,8 @@ public class Email_checker {
     { 
         String email = "ghdsffsf@gmail.com"; 
         if (isValid(email)) 
-            System.out.print("is email id found "); 
+            System.out.println("is email id found "); 
         else
-            System.out.print("No invaild format"); 
+            System.out.println("No invaild format"); 
     } 
 }
