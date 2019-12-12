@@ -7,6 +7,6 @@ enum animails{
 public class enumjava {
     public static void main(String[] args) 
     {
-        System.out.println(animails.dog);
+        System.out.println(animails.dog+" And "+ animails.cat);
     }
 }
