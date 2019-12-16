@@ -12,7 +12,7 @@ package file_io;
 import java.io.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-public class File_io {
+public class File_Input {
 
     /**
      * @param args the command line arguments
