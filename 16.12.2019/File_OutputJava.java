@@ -21,12 +21,13 @@ public class File_OutputJava {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         FileInputStream  fout = new FileInputStream("test.txt");
-        //object creatation for file Writting
+        //object creatation for file Writing
         int i =0;
         while((i=fout.read())!=-1)
             //
         {
         System.out.print((char)i);
+            //to print the text in the text file
         }
         System.out.println();
         fout.close();     
