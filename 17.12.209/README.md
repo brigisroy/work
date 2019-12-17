@@ -2,8 +2,9 @@
 
   PreparedStatement are found under `PreparedStatement` and method named `prepareStatement`
   
+  Syntex
  ```
- Syntex 
+  
  PreparedStatement stmt=conn.prepareStatement("<quries passing >(`column1`, `column2`, `column3`) VALUES(?,?,?)");
  stmt.setString(1,<pass the variable>);
  stmt.setString(2,<pass the variable>);
