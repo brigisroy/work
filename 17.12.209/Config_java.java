@@ -3,8 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package config_java;
-
 /**
  *
  * @author Brigis
@@ -24,7 +22,8 @@ public class Config_java {
      */
     public static void main(String[] args) throws IOException  {
       
-        File configFile = new File("/home/developer/Documents/programs/java/17.12.2019/config.properties");
+        File configFile = new File("<Location of the file>");
+	    //add the location of the file
 
         try {
             FileReader reader = new FileReader(configFile);
@@ -32,7 +31,7 @@ public class Config_java {
             props.load(reader);
 
             String host = props.getProperty("db_link");
-
+		// data keyvalue you have to fetch
             System.out.println("Host name is: " + host);
             reader.close();
         } catch (FileNotFoundException ex) {
