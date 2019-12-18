@@ -26,3 +26,8 @@ System.out.println("Host name is: " + host);
 ```
 
 [Code for Config Properties](https://github.com/brigisroy/work/blob/master/17.12.209/Config_java.java)
+
+**Javadoc Generation**
+
+To Generate a Java doc in the Net Beans IDE 
+Click `Run>Generate javadoc` and the new window will open on the broswer 
