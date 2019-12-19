@@ -30,6 +30,7 @@ public class File_Input {
             fout.write(b);
             //Writting to the text file
             System.out.println("Written Done done");
+            fout.close();
         } catch (FileNotFoundException ex) {
             Logger.getLogger(File_io.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
