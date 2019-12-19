@@ -27,7 +27,7 @@ public class Files_java {
         props.load(reader);
         String s= props.getProperty("data");
         //to get the data form the confi file 
-        FileOutputStream fout =fout = new FileOutputStream("Text.txt");
+        FileOutputStream fout  = new FileOutputStream("Text.txt");
         // creation of the text file 
         byte b[];
         b =  s.getBytes();
