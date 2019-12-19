@@ -20,7 +20,7 @@ public class Files_java {
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
         
-        File configFile=new File("/home/developer/Documents/programs/java/18.12.2019/files_java/config.properties");
+        File configFile=new File("<LOCATION of the File >");
         //location of the properties file 
         FileReader reader = new FileReader(configFile);
         Properties props= new Properties();
