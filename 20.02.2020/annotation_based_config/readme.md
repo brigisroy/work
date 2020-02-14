@@ -1,1 +1,1 @@
-# Annotation based configurationconfi
+# Annotation based configuration
