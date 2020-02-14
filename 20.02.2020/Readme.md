@@ -1,1 +1,1 @@
-
+#XML based configuration
